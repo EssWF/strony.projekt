@@ -1,0 +1,131 @@
+
+* {
+margin: 0;
+padding: 0;
+border: 0;
+line-height: 1.4em;
+vertical-align: baseline;
+text-decoration: none;
+outline: 0;
+}
+main{
+display:block;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+body{
+background-image: url(img/bk.png);
+background-attachment: fixed;
+width: 100%;
+}
+h3{
+text-align: center;
+padding: 50px;
+}
+h4{
+  font-size: 10px;
+}
+footer{
+  text-align: center;
+  margin-top: 20px;
+  clear: both;
+  background-color: rgb(213,219,233);
+}
+header{
+background-color: white;
+margin-bottom: 20px;
+}
+ul#header2{
+  float: right;
+  margin-top: 15px;
+}
+.logo{
+  margin-left: 50px;
+}
+.atext,.aimg{
+  display: inline-block;
+}
+.text{
+  line-height: 30px;
+}
+.atext{
+  width: 50%;
+  margin-left: 10%;
+}
+.blog{
+  margin-left: 5%;
+}
+.c1,.c2,.c3{
+  display: block;
+  float: left;
+  width: 33%;
+}
+.form,.mapa{
+  float: left;
+  margin-bottom: 100px;
+}
+.form{
+  margin-left: 10%;
+}
+.photo-gallery {
+  color:red;
+}
+
+.home{
+  padding: 0px;
+  padding-bottom: 10px;
+}
+
+
+@media (max-width:767px) {
+  .photo-gallery h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+.photo-gallery .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 40px;
+}
+
+.photo-gallery .intro p {
+  margin-bottom:0;
+}
+
+.photo-gallery .photos {
+  padding-bottom:20px;
+}
+
+.photo-gallery .item {
+  padding-bottom:30px;
+}
+@media (min-width: 360px) and (max-width: 567px) {
+.c1,.c2,.c3{clear: both; margin-left: auto;margin-right: auto;margin-bottom: 30px;}
+body{max-width: 420px;background-attachment: fixed;}
+.mapa {width: 350px; margin-left: auto; margin-right: auto;}
+.aimg{margin-left: -10%; margin-bottom: 5%;}
+.logo{margin-left: 30%;}
+.home{width: 100%;}
+.atext{width: 100%;margin: 0px;}
+ul#header2{width: 350px;float: left;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+body{background-attachment: fixed;}
+.blog{width: 110%;margin-left: -2%;}
+.c1,.c2,.c3{display: inline-flex;width: 200px;margin:10px;margin-bottom: 25px;}
+.about{width: 100%;margin-left: auto;margin-right: auto;}
+.aimg{margin-left: 16%;margin-bottom: 15%;}
+.atext{width: 100%;margin: 0px;margin-left: 5%;font-size: 24px;}
+}
+
+@media (min-width: 992px) and (max-width: 1199) {
+body{background-attachment: fixed;}
+.atext{font-size: 50px;}
+.atext.aimg{display: inline-block;float: left;}
+.c1,.c2,.c3{display: inline-flex;margin:20px;}
+}
