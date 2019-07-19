@@ -55,13 +55,12 @@ ul#header2{
 }
 .blog{
   margin-left: 5%;
-  margin-bottom: 5%;
 }
 .c1,.c2,.c3{
   display: block;
   float: left;
   width: 33%;
-  padding-botoom:90px;
+  padding-bottom:90px;
 }
 .form,.mapa{
   float: left;
