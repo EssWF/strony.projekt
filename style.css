@@ -36,6 +36,14 @@ header{
 background-color: white;
 margin-bottom: 20px;
 }
+.hmove{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
 ul#header2{
   float: right;
   margin-top: 15px;
@@ -76,6 +84,7 @@ ul#header2{
 .home{
   padding: 0px;
   padding-bottom: 10px;
+  padding-top:100px;
 }
 
 
